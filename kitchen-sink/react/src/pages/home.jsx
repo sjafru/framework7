@@ -175,6 +175,9 @@ export default ({ f7router }) => {
         <ListItem reloadDetail link="/login-screen/" title="Login Screen">
           <Icon slot="media" icon="icon-f7" />
         </ListItem>
+        <ListItem reloadDetail link="/login-firebase/" title="Login Firebase">
+          <Icon slot="media" icon="icon-f7" />
+        </ListItem>
         <ListItem reloadDetail link="/menu/" title="Menu">
           <Icon slot="media" icon="icon-f7" />
         </ListItem>

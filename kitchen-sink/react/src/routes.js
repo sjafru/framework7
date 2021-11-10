@@ -34,6 +34,7 @@ import List from './pages/list.jsx';
 import ListIndex from './pages/list-index.jsx';
 import LoginScreen from './pages/login-screen.jsx';
 import LoginScreenPage from './pages/login-screen-page.jsx';
+import LoginFirebase from './pages/login-firebase.jsx';
 import Menu from './pages/menu.jsx';
 import MenuList from './pages/menu-list.jsx';
 import Messages from './pages/messages.jsx';
@@ -321,6 +322,10 @@ export default [
   {
     path: '/login-screen-page/',
     component: LoginScreenPage,
+  },
+  {
+    path: '/login-firebase/',
+    component: LoginFirebase,
   },
   {
     path: '/menu/',
